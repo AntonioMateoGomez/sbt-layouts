@@ -1,0 +1,25 @@
+options:
+  - title: Getting Started
+    url: docs.html
+
+  - title: Foo file
+    url: fooFile.html
+
+    nested_options:
+     - title: Scala on Android
+       url: section1/scalaOnAndroid.html
+     - title: Organization
+       url: section1/organization.html
+
+  - title: Repository
+    url: repository.html
+
+    nested_options:
+     - title: Making a repository
+       url: section2/repo.html
+     - title: Gist API
+       url: section2/gist.html
+     - title: Pull Request API
+       url: section2/pull.html
+     - title: User
+       url: section2/user.html
